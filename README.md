@@ -44,7 +44,9 @@ git status
 git add file_name
 : add one file
 
-git add .: add all files
+git add .
+: add all files
+
 git commit -m “commit message”
 : commit your files along with a message
 
@@ -66,17 +68,40 @@ git push origin master
 
 ```
 git branch
-:list out branches
+: list out branches
 
 git branch branch-name
-:create a new branch
+: create a new branch
 
 git checkout branch-name
-:switch to the newly created branch
+: switch to the newly created branch
 
 git checkout -b branch-name
-:Shortcut! - use this command to create & switch to the new branch
+: Shortcut! - use this command to create & switch to the new branch
 
 git push origin branch-name
-:push branch & changes to github
+: push branch & changes to github
+```
+
+## Open a Pull Request
+
+- [Closing Issues via Commit Messages](https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue)
+- [Using Pull Requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+
+## Conflict Resolution
+
+Close, Fix, and Resolve
+
+You can use the Issue Title to close issues. Using the above keywords along with the issue number can be used to close issues via commit messages. More info can be found in the [GitHub help documents](https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
+
+```
+git branch
+git pull origin branch-name
+
+DELETE MARKERS ON CODE EDITOR
+
+git status
+git add .
+git commit -m "commit message"
+git push origin branch-name
 ```
