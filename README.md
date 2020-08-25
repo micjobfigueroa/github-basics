@@ -46,7 +46,7 @@ git push origin master: push your files up to github on the master branch
 
 ###### Markdown:
 
-_[GitHub Guide to Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-_[Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-_[Emoji Cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
-_[Daring Fireball Markdown Basics](https://daringfireball.net/projects/markdown/basics)
+- [GitHub Guide to Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+- [Emoji Cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- [Daring Fireball Markdown Basics](https://daringfireball.net/projects/markdown/basics)
