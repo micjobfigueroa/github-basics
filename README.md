@@ -35,13 +35,24 @@ git config --global user.email "email associated with your GitHub account"
 ## Git Commands:
 
 ```
-git init: initialize a git repository in your directory
-git status: check the status of the repository
-git add file_name: add one file
+git init
+: initialize a git repository in your directory
+
+git status
+: check the status of the repository
+
+git add file_name
+: add one file
+
 git add .: add all files
-git commit -m “commit message”: commit your files along with a message
-git remote add origin https://github.com/username/reponame.git - the remote url to your GitHub repo
-git push origin master: push your files up to github on the master branch
+git commit -m “commit message”
+: commit your files along with a message
+
+git remote add origin https://github.com/username/reponame.git
+- the remote url to your GitHub repo
+
+git push origin master
+: push your files up to github on the master branch
 ```
 
 ## Markdown:
@@ -55,17 +66,17 @@ git push origin master: push your files up to github on the master branch
 
 ```
 git branch
-* list out branches
+:list out branches
 
 git branch branch-name
-* create a new branch
+:create a new branch
 
 git checkout branch-name
-* switch to the newly created branch
+:switch to the newly created branch
 
 git checkout -b branch-name
-* shortcut! - use this command to create & switch to the new branch
+:Shortcut! - use this command to create & switch to the new branch
 
 git push origin branch-name
-* push branch & changes to github
+:push branch & changes to github
 ```
