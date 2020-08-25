@@ -55,13 +55,17 @@ git push origin master: push your files up to github on the master branch
 
 ```
 git branch
->list out branches
+* list out branches
+
 git branch branch-name
->create a new branch
+* create a new branch
+
 git checkout branch-name
->switch to the newly created branch
+* switch to the newly created branch
+
 git checkout -b branch-name
->shortcut! - use this command to create & switch to the new branch
+* shortcut! - use this command to create & switch to the new branch
+
 git push origin branch-name
->push branch & changes to github
+* push branch & changes to github
 ```
